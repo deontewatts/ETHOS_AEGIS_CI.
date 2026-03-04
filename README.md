@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/cfc5d27c-63c6-4ab0-853d-8d333d6f5245)
+
 # The Ethos Aegis
 ### *The Sovereign Integrity Mesh for AI*
 
@@ -84,6 +86,8 @@ The security module ensures the defense system can protect its own configuration
 - **`AuditLedger`** — Append-only, tamper-evident SHA-256 hash-chained operation log
 - **`IntegrityVerifier`** — Source-file fingerprint registry to detect code tampering
 - **`ThreatArchive`** — Persistent NDJSON store of confirmed Maligna with cross-session seeding
+- 
+<img width="1536" height="2752" alt="image" src="https://github.com/user-attachments/assets/cd6ed131-5510-428a-8711-2cfd0d5fefcb" />
 
 ---
 
