@@ -1,0 +1,19 @@
+[package]
+name        = "ethos-aegis-rs"
+version     = "1.0.0"
+edition     = "2021"
+description = "Rust bindings for the Ethos Aegis Sovereign Integrity Mesh via PyO3"
+license     = "MIT"
+repository  = "https://github.com/ethos-aegis/ethos-aegis"
+
+[lib]
+name       = "ethos_aegis_rs"
+crate-type = ["cdylib", "rlib"]
+
+[dependencies]
+pyo3       = { version = "0.21", features = ["auto-initialize"] }
+serde      = { version = "1",    features = ["derive"] }
+serde_json = "1"
+
+[dev-dependencies]
+pretty_assertions = "1.4"
